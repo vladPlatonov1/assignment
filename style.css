@@ -1,1 +1,23 @@
+p:hover {
+  color:green;
+  font-weight:bold;
+}
 
+  
+p::before {
+  content: 'Hi!';
+  color:red;
+  font-weight:600;
+
+}
+
+p::after {
+  content: 'Bye!';
+  color:blue;
+  font-weight:600;
+}
+
+p::selection {
+  color:purple;
+
+}
