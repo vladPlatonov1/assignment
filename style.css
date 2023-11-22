@@ -21,3 +21,16 @@ p::selection {
   color:purple;
 
 }
+
+
+.test {
+  visibility: visible;
+}
+
+.testing {
+  opacity: 0.5
+}
+
+.test1 {
+ display: inline;
+}
