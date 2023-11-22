@@ -5,8 +5,8 @@ p:hover {
 
   
 p::before {
-  content: 'Hi!';
-  color:red;
+  content: 'Hello!';
+  color:blue;
   font-weight:600;
 
 }
@@ -18,7 +18,7 @@ p::after {
 }
 
 p::selection {
-  color:purple;
+  color:green;
 
 }
 
@@ -28,9 +28,9 @@ p::selection {
 }
 
 .testing {
-  opacity: 0.5
+  opacity: 1
 }
 
 .test1 {
- display: inline;
+ display: inline-block;
 }
