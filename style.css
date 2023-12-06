@@ -5,14 +5,14 @@ p:hover {
 
   
 p::before {
-  content: 'Hello!';
+  content: ' Hello! ';
   color:blue;
   font-weight:600;
 
 }
 
 p::after {
-  content: 'Bye!';
+  content: ' Bye! ';
   color:blue;
   font-weight:600;
 }
@@ -28,7 +28,7 @@ p::selection {
 }
 
 .testing {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .test1 {
